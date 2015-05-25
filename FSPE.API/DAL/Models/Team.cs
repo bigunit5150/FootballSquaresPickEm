@@ -8,7 +8,6 @@ namespace FSPE.API.DAL.Models
     public class Team
     {
         public int TeamId { get; set; }
-        [Required]
         public string City { get; set; }
         [Required]
         public string Name { get; set; }

@@ -26,3 +26,7 @@ C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.csproj.GenerateResource
 C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.dll
 C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.pdb
 C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.csprojResolveAssemblyReference.cache
+C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.Migrations.poolfix.resources
+C:\src\FootballSquaresPickEm\FSPE.API\bin\Excel.dll
+C:\src\FootballSquaresPickEm\FSPE.API\bin\Excel.xml
+C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.Migrations.scheduleupload.resources

@@ -44,6 +44,9 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Excel">
+      <HintPath>..\..\..\Users\keith.smith\Documents\Thirdparty\Excel.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -115,8 +118,17 @@
     <Compile Include="Migrations\201505180133500_Initial.Designer.cs">
       <DependentUpon>201505180133500_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201505201600204_poolfix.cs" />
+    <Compile Include="Migrations\201505201600204_poolfix.Designer.cs">
+      <DependentUpon>201505201600204_poolfix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505242356201_scheduleupload.cs" />
+    <Compile Include="Migrations\201505242356201_scheduleupload.Designer.cs">
+      <DependentUpon>201505242356201_scheduleupload.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ScheduleLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -124,6 +136,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201505180133500_Initial.resx">
       <DependentUpon>201505180133500_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505201600204_poolfix.resx">
+      <DependentUpon>201505201600204_poolfix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505242356201_scheduleupload.resx">
+      <DependentUpon>201505242356201_scheduleupload.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

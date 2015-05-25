@@ -81,15 +81,14 @@ namespace FSPE.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            pool.Squares = new List<Square>();
+            db.Pools.Add(pool);
 
             for ( var i = 0; i < 10; i++ )
                 for ( var j = 0; j < 10; j++ )
-                    pool.Squares.Add( new Square{ HomePosition = i, VisitorPosition = j});
+                    pool.Squares.Add(new Square{ HomePosition = i, VisitorPosition = j});
 
             pool.CreationDate = DateTime.Now;
 
-            db.Pools.Add(pool);
             await db.SaveChangesAsync();
 
             return CreatedAtRoute("DefaultApi", new { id = pool.PoolId }, pool);
