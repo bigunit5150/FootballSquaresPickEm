@@ -46,3 +46,5 @@ C:\src\FootballSquaresPickEm\FSPE.API\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\src\FootballSquaresPickEm\FSPE.API\bin\Microsoft.Owin.Security.xml
 C:\src\FootballSquaresPickEm\FSPE.API\bin\Microsoft.Owin.Security.Cookies.xml
 C:\src\FootballSquaresPickEm\FSPE.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.Migrations.FixIdentityCreationIssue.resources
+C:\src\FootballSquaresPickEm\FSPE.API\obj\Debug\FSPE.API.csproj.GenerateResource.Cache

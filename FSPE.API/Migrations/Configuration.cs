@@ -20,7 +20,7 @@ namespace FSPE.API.Migrations
 
         protected override void Seed(DAL.PoolManagerContext context)
         {
-            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new PoolManagerContext())))
+            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new PoolManagerContext()));
             var user = new ApplicationUser()
             {
                 UserName = "SuperPowerUser",
@@ -28,8 +28,11 @@ namespace FSPE.API.Migrations
                 EmailConfirmed = true,
                 FirstName = "Keith",
                 LastName = "Smith",
-                Status = UserStatus.Standard
+                Status = UserStatus.Standard,
+                JoinDate = DateTime.UtcNow
             };
+
+            manager.Create(user, "V0lleyB@ll");
 
             ScheduleLoader.Load(@"C:\Users\keith.smith\Downloads\nfl-2015-schedule.xlsx");
 
