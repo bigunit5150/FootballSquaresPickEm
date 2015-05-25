@@ -7,6 +7,11 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace FSPE.API.DAL.Models
 {
+    public enum UserStatus
+    {
+        Standard
+    };
+
     public class ApplicationUser : IdentityUser
     {
         [Required]
@@ -19,5 +24,7 @@ namespace FSPE.API.DAL.Models
 
         [Required]
         public DateTime JoinDate { get; set; }
+
+        public UserStatus Status { get; set; }
     }
 }

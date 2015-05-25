@@ -24,3 +24,10 @@ C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\System.Web.Http.Tracing.dl
 C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\System.Web.Http.Tracing.xml
 C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\System.Web.Http.WebHost.dll
 C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\FSPE.API.Tests.dll.config
+C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\Excel.dll
+C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\Excel.xml
+C:\src\FootballSquaresPickEm\FSPE.API.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
